@@ -1,6 +1,6 @@
 [build]
-publish = "Koodaus Nurkka/Code"
+publish = "Code"
 [[redirects]]
 from = "/*"
-to = "/Koodaus Nurkka/Code/index.html"
+to = "/Code/index.html"
 status = 200
