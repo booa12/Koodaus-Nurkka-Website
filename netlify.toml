@@ -1,0 +1,4 @@
+[[redirects]]
+from = "/*"
+to = "/Koodaus Nurkka/Code/index.html"
+status = 200
