@@ -3,13 +3,13 @@
     font-family: sans-serif;
     text-align: center;
 }
-.Text2 {
+.Title {
     color: rgb(230, 49, 230); 
     font-family: sans-serif;
     text-align: center;
 }
-.Text3 {
-    color: rgb(240, 95, 180); 
+.TitleMain {
+    color: rgb(255, 110, 195); 
     font-family: sans-serif;
     text-align: center;
 }
@@ -25,14 +25,14 @@
     justify-content: center;
     color: rgb(5, 212, 248);
 }
-.Img {
+.Imgup {
     height: 20vh;
     margin-top: 15vh;
     margin-left: auto;
     margin-right: auto;
     display: block;
 }
-.Img1 {
+.Imgtop {
     height: 13vh;
     margin-right: auto;
     display: block;
