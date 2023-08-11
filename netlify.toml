@@ -1,6 +1,2 @@
 [build]
 publish = "Website"
-[[redirects]]
-from = "/*"
-to = "/Website/Html/Index.html"
-status = 200
