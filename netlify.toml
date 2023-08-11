@@ -1,5 +1,9 @@
 [build]
-publish = "Html"
+publish = [
+  "Html",
+  "Css",
+  "Img"
+]
 [[redirects]]
 from = "/*"
 to = "/Html/Index.html"
