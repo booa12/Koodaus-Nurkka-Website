@@ -1,6 +1,6 @@
 [build]
-publish = "Everything"
+publish = "Html"
 [[redirects]]
 from = "/*"
-to = "/Everything/index.html"
+to = "/Html/Index.html"
 status = 200
