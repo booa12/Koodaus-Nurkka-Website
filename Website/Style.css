@@ -12,6 +12,7 @@
     color: rgb(255, 110, 195); 
     font-family: sans-serif;
     text-align: center;
+    text-shadow: 5px 5px 50px rgb(255, 110, 195), -5px -5px 50px rgb(255, 110, 195);
 }
 .EndText {
     color: rgb(230, 49, 230);
