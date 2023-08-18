@@ -1,5 +1,5 @@
 Flask | Back-End
-Brython | Front-End Replacement For JS
+Svelte | Front-End Js Framework
 Htlm | Front-End 
 TailWind Css | Front-End Replacemt For Css
 
