@@ -1,0 +1,40 @@
+body {
+    background-color: rgb(0, 0, 0);
+}
+.t {
+    font-family: sans-serif;
+    text-align: center;
+    color: rgb(128, 127, 127);
+}
+.s {
+    font-family: sans-serif;
+    text-align: center;
+    color: red;
+}
+#w {
+    color: white;
+}
+.nav ul{
+    list-style-type: none;
+    background-color: rgb(48, 48, 48);
+    padding: 20px;
+    padding-top: none;
+    padding-bottom: none;
+    overflow: hidden;
+}
+.nav a{
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    display: inline-block;
+    font-family: sans-serif;
+}
+.nav a:hover {
+    background-color: rgb(66, 66, 66);
+}
+.nav li{
+    float: left;
+}
+#a {
+    float: right;
+}

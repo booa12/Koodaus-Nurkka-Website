@@ -1,23 +1,19 @@
 .Text {
-    color: rgb(89, 3, 250); 
+    color: rgb(3, 180, 250); 
     font-family: sans-serif;
     text-align: center;
 }
 .Title {
-    color: rgb(230, 49, 230); 
+    color: hsl(224, 100%, 50%); 
     font-family: sans-serif;
     text-align: center;
+    text-shadow: 1px 1px 50px hsl(224, 100%, 50%), -1px -1px 50px hsl(224, 100%, 50%);
 }
 .TitleMain {
     color: rgb(255, 110, 195); 
     font-family: sans-serif;
     text-align: center;
     text-shadow: 5px 5px 50px rgb(255, 110, 195), -5px -5px 50px rgb(255, 110, 195);
-}
-.EndText {
-    color: rgb(230, 49, 230);
-    font-family: sans-serif;
-    text-align: center;
 }
 .a {
     font-family: sans-serif;
@@ -26,38 +22,36 @@
     justify-content: center;
     color: rgb(5, 212, 248);
 }
-.aa {
-    font-family: sans-serif;
-    font-size: 2rem;
-    display: flex;
-    justify-content: center;
-    color: rgb(255, 0, 0);
-    text-decoration: none;
-}
 .Imgup {
     height: 20vh;
-    margin-top: 15vh;
     margin-left: auto;
-    margin-right: auto;
-    display: block;
-}
-.Imgtop {
-    height: 13vh;
     margin-right: auto;
     display: block;
 }
 body {
     background-color: rgb(0, 0, 0);
 }
-#Banner {
-    background-color: #1032a1b0;
-    backdrop-filter: blur(12px) sepia(50%);
-    position: fixed;
-    width: 100%;
-    top: 0rem;
-    left: -0.2rem;
-    border: #00000005 2px solid;
-    z-index: 1;
-    height: 13vh;
-    box-shadow: rgb(0, 0, 0) 0px 15px 10px -10px;
+.nav ul{
+    list-style-type: none;
+    background-color: rgb(48, 48, 48);
+    padding: 20px;
+    padding-top: none;
+    padding-bottom: none;
+    overflow: hidden;
+}
+.nav a{
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    display: inline-block;
+    font-family: sans-serif;
+}
+.nav a:hover {
+    background-color: rgb(66, 66, 66);
+}
+.nav li{
+    float: left;
+}
+#a {
+    float: right;
 }

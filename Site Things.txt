@@ -1,3 +1,0 @@
-Index.html | Main Site Ulkoinen Css
-Style.css | Css For Main Site
-Säännöt.html | Säännöt Sivu Sisäisellä Css

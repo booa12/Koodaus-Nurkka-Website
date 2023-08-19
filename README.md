@@ -1,2 +1,0 @@
-# Koodaus Nurkka Website
-Website
