@@ -14,27 +14,34 @@ body {
 #w {
     color: white;
 }
-.nav ul{
+.nav ul {
     list-style-type: none;
-    background-color: rgb(48, 48, 48);
-    padding: 20px;
-    padding-top: none;
-    padding-bottom: none;
+    background-color: rgb(65, 65, 65);
+    padding: 10px;
     overflow: hidden;
+    margin: 0; /* Remove default margin */
 }
-.nav a{
+
+.nav a {
     text-decoration: none;
     color: white;
-    padding: 15px;
+    padding: 15px 20px;
     display: inline-block;
     font-family: sans-serif;
 }
+
 .nav a:hover {
-    background-color: rgb(66, 66, 66);
+    background-color: rgb(83, 83, 83);
+    transition: background-color 0.3s; /* Smooth transition on hover */
 }
-.nav li{
+
+.nav li {
     float: left;
+    margin: 0;
 }
-#a {
+
+/* Apply styling to the last li element (KingBooan Nettisivu) */
+.nav .right {
     float: right;
+    background-color: rgb(87, 87, 87);
 }
