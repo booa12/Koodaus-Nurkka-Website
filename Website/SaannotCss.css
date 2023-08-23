@@ -14,34 +14,48 @@ body {
 #w {
     color: white;
 }
-.nav ul {
-    list-style-type: none;
-    background-color: rgb(65, 65, 65);
-    padding: 10px;
-    overflow: hidden;
-    margin: 0; /* Remove default margin */
+body, html {
+    margin: 0;
+    padding: 0;
 }
-
-.nav a {
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #222222;
+    padding: 20px;
+}
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+.nav-links li a {
+    color: #ffffff;
     text-decoration: none;
-    color: white;
-    padding: 15px 20px;
-    display: inline-block;
     font-family: sans-serif;
 }
-
-.nav a:hover {
-    background-color: rgb(83, 83, 83);
-    transition: background-color 0.3s; /* Smooth transition on hover */
+.nav-links li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-family: sans-serif;
 }
-
-.nav li {
-    float: left;
-    margin: 0;
+.nav-links li a:hover {
+    transition: color 0.3s;
+    color: #66ccff;
 }
-
-/* Apply styling to the last li element (KingBooan Nettisivu) */
-.nav .right {
-    float: right;
-    background-color: rgb(87, 87, 87);
+@media (max-width: 768px) {
+    .navbar {
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 10px;
+    }
+    
+    .logo {
+      margin-bottom: 10px;
+    }
+    
+    .nav-links {
+      flex-direction: column;
+    }
 }
