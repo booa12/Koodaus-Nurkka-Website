@@ -1,19 +1,19 @@
 .Text {
-    color: rgb(3, 180, 250); 
+    color: rgb(3, 7, 250); 
     font-family: sans-serif;
     text-align: center;
 }
 .Title {
-    color: hsl(224, 100%, 50%); 
+    color: rgb(13, 84, 177); 
     font-family: sans-serif;
     text-align: center;
-    text-shadow: 1px 1px 50px hsl(224, 100%, 50%), -1px -1px 50px hsl(224, 100%, 50%);
+    text-shadow: 1px 1px 50px darkcyan, -1px -1px 50px darkcyan;
 }
 .TitleMain {
-    color: rgb(255, 110, 195); 
+    color: rgb(9, 93, 219); 
     font-family: sans-serif;
     text-align: center;
-    text-shadow: 5px 5px 50px rgb(255, 110, 195), -5px -5px 50px rgb(255, 110, 195);
+    text-shadow: 5px 5px 50px rgb(9, 93, 219), -5px -5px 50px rgb(9, 93, 219);
 }
 .a {
     font-family: sans-serif;
