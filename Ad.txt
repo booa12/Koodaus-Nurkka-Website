@@ -6,9 +6,9 @@
 > :man_technologist: | Ohjelmointi Apua
 > :exploding_head: | Osaamista
 > :sunglasses: | Cooleja Ihmisiä
-> :gem: | Vip Rooli
+> :exclamation: | Reportit
 **Linkit**
 > **__Nettisivut__**
 > https://koodaus-nurkka.netlify.app/
 > **__Discord Server__**
-> https://discord.com/invite/pdwPJTnnVv
+> https://discord.gg/ubNKSk8hmw

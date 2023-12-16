@@ -1,5 +1,0 @@
-Flask | Back-End
-Svelte | Front-End Js Framework
-Htlm | Front-End 
-TailWind Css | Front-End Replacemt For Css
-
